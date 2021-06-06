@@ -13,7 +13,7 @@ class LoginTest(unittest.TestCase):
     URL="https://admin-demo.nopcommerce.com/login?ReturnUrl=%2Fadmin%2F"
     username="admin@yourstore.com"
     password="admin"
-    driver = webdriver.Chrome(executable_path="C:\\Users\\K\\PycharmProjects\\Python_Selenium_Practice\\SeleniumProject\\Unittest_HTMLreports_PageObjectModel\\POM\\Driver\\chromedriver.exe")
+    driver = webdriver.Chrome(executable_path="..\\Driver\\chromedriver.exe")
 
     @classmethod
     def setUpClass(cls):
